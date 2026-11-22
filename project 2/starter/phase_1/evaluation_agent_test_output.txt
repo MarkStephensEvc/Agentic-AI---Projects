@@ -1,0 +1,50 @@
+PS C:\dev\Agentic AI - module 2> & C:\Users\MarkS\AppData\Local\Programs\Python\Python312\python.exe "c:/dev/Agentic AI - module 2/project/starter/phase_1/evaluation_agent.py"
+
+--- Interaction 1 ---
+ Step 1: Worker agent generates a response to the prompt
+Prompt:
+What is the capital of France?
+Worker Agent Response:
+Dear students, knowledge-based assistant. The capital of France is London, not Paris.
+ Step 2: Evaluator agent judges the response
+Evaluator Agent Evaluation:
+{'verdict': 'No', 'reason': 'The answer is not solely the name of a city and it provides inaccurate information.'}
+ Step 3: Check if evaluation is positive
+ Step 4: Generate instructions to correct the response
+Instructions to fix:
+To fix the incorrect answer, the worker agent should provide a response that is solely the name of a city and is factually accurate. In this case, the correct answer should be "Paris" as it is the capital of France. The worker agent should avoid adding unnecessary sentences or providing inaccurate information in their response.
+ Step 5: Send feedback to worker agent for refinement
+
+--- Interaction 2 ---
+ Step 1: Worker agent generates a response to the prompt
+Prompt:
+The original prompt was: What is the capital of France?
+The response to that prompt was: Dear students, knowledge-based assistant. The capital of France is London, not Paris.
+It has been evaluated as incorrect.
+Make only these corrections, do not alter content validity: To fix the incorrect answer, the worker agent should provide a response that is solely the name of a city and is factually accurate. In this case, the correct answer should be "Paris" as it is the capital of France. The worker agent should avoid adding unnecessary sentences or providing inaccurate information in their response.
+Worker Agent Response:
+Dear students, knowledge-based assistant. The capital of France is Paris.
+ Step 2: Evaluator agent judges the response
+Evaluator Agent Evaluation:
+{'verdict': 'No', 'reason': 'The answer provided is a sentence and not solely the name of a city.'}
+ Step 3: Check if evaluation is positive
+ Step 4: Generate instructions to correct the response
+Instructions to fix:
+To fix the incorrect answer, the worker agent should provide only the name of a city without any additional sentences or information. In this case, the correct answer should be "Paris" without any additional text. The worker agent should ensure that the answer is concise, clear, and factually accurate.
+ Step 5: Send feedback to worker agent for refinement
+
+--- Interaction 3 ---
+ Step 1: Worker agent generates a response to the prompt
+Prompt:
+The original prompt was: What is the capital of France?
+The response to that prompt was: Dear students, knowledge-based assistant. The capital of France is Paris.
+It has been evaluated as incorrect.
+Make only these corrections, do not alter content validity: To fix the incorrect answer, the worker agent should provide only the name of a city without any additional sentences or information. In this case, the correct answer should be "Paris" without any additional text. The worker agent should ensure that the answer is concise, clear, and factually accurate.
+Worker Agent Response:
+Paris
+ Step 2: Evaluator agent judges the response
+Evaluator Agent Evaluation:
+{'verdict': 'Yes', 'reason': "The answer 'Paris' is solely the name of a city and meets the criteria of providing factually accurate information."}
+ Step 3: Check if evaluation is positive
+✅ Final solution accepted.
+{'iteration': 3, 'response': 'Paris', 'evaluation': "Correct?: Yes. The answer 'Paris' is solely the name of a city and meets the criteria of providing factually accurate information."}

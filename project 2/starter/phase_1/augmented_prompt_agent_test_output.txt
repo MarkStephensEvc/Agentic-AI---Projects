@@ -1,0 +1,12 @@
+#txt
+PS C:\dev\Agentic AI - module 2> & C:\Users\MarkS\AppData\Local\Programs\Python\Python312\python.exe "c:/dev/Agentic AI - module 2/project/starter/phase_1/augmented_prompt_agent.py"
+Dear students,
+
+The capital of France is Paris. It is known for its iconic landmarks such as the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Paris is also famous for its art, fashion, and cuisine.
+
+I hope that helps clarify things for you.
+
+      The AugmentedPromptAgent uses the OpenAI API to generate a response based on general knowledge from the
+      gpt-3.5-turbo LLM. The system prompt instructing the agent to assume the persona of a college professor,
+      influenced the tone and style of the response. The agent's response is likely to be more formal and may 
+      include an educational tone.

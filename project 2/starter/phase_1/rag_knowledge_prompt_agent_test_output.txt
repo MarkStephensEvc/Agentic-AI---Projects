@@ -1,0 +1,81 @@
+PS C:\dev\Agentic AI - module 2> & C:\Users\MarkS\AppData\Local\Programs\Python\Python312\python.exe "c:/dev/Agentic AI - module 2/project/starter/phase_1/rag_knowledge_prompt_agent.py"
+chunking text.....
+Chunk 1 completed! Progress: 7.70%
+Chunk 2 completed! Progress: 15.39%
+Chunk 3 completed! Progress: 23.09%
+Chunk 4 completed! Progress: 30.79%
+Chunk 5 completed! Progress: 38.48%
+Chunk 6 completed! Progress: 46.18%
+Chunk 7 completed! Progress: 53.87%
+Chunk 8 completed! Progress: 61.57%
+Chunk 9 completed! Progress: 69.27%
+Chunk 10 completed! Progress: 76.96%
+Chunk 11 completed! Progress: 84.66%
+Chunk 12 completed! Progress: 92.36%
+Chunk 13 completed! Progress: 94.87%
+Chunk 14 completed! Progress: 100.00%
+Text chunk ID 0: 'In the his....' of size 500 written to csv
+Text chunk ID 1: 'y ocean ac....' of size 500 written to csv
+Text chunk ID 2: 'skilled in....' of size 500 written to csv
+Text chunk ID 3: 's teacher ....' of size 500 written to csv
+Text chunk ID 4: 'ling in th....' of size 500 written to csv
+Text chunk ID 5: 'd **"Cross....' of size 500 written to csv
+Text chunk ID 6: 'erfaces, n....' of size 500 written to csv
+Text chunk ID 7: 'nother, sh....' of size 500 written to csv
+Text chunk ID 8: ' often col....' of size 500 written to csv
+Text chunk ID 9: 'e ethical ....' of size 500 written to csv
+Text chunk ID 10: 'd to open-....' of size 500 written to csv
+Text chunk ID 11: 'parents on....' of size 500 written to csv
+Text chunk ID 12: 'rtainty. T....' of size 298 written to csv
+Text chunk ID 13: ', and evol....' of size 200 written to csv
+fetching the embedding vector for chunk of text starting with In the his
+fetching the embedding vector for chunk of text starting with y ocean ac
+fetching the embedding vector for chunk of text starting with skilled in
+fetching the embedding vector for chunk of text starting with s teacher 
+fetching the embedding vector for chunk of text starting with ling in th
+fetching the embedding vector for chunk of text starting with d **"Cross
+fetching the embedding vector for chunk of text starting with erfaces, n
+fetching the embedding vector for chunk of text starting with nother, sh
+fetching the embedding vector for chunk of text starting with  often col
+fetching the embedding vector for chunk of text starting with e ethical 
+fetching the embedding vector for chunk of text starting with d to open-
+fetching the embedding vector for chunk of text starting with parents on
+fetching the embedding vector for chunk of text starting with rtainty. T
+fetching the embedding vector for chunk of text starting with , and evol
+Chunk embeddings calculated.
+What is the podcast that Clara hosts about?
+fetching the embedding vector for chunk of text starting with What is th
+Calculating scosine simularity
+Cosine simularity metric is:  0.40, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.38, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.34, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.34, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.67, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.46, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.50, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.42, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.42, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.51, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.49, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.39, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.38, closer to 1 is better
+Calculating scosine simularity
+Cosine simularity metric is:  0.19, closer to 1 is better
+Best chunk obtained from highest similarity
+
+
+
+
+Dear students, Clara hosts a podcast called "Crosscurrents" that explores the intersection of science, culture, and ethics. Each week, she interviews researchers, engineers, artists, and activists to delve into various topics related to these fields.

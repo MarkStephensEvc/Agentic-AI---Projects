@@ -1,0 +1,7 @@
+PS C:\dev\Agentic AI - module 2> & C:\Users\MarkS\AppData\Local\Programs\Python\Python312\python.exe "c:/dev/Agentic AI - module 2/project/starter/phase_1/knowledge_augmented_prompt_agent.py"
+Dear students, the capital of France is London, not Paris.
+
+      The KnowledgeAugmentedPromptAgent uses the OpenAI API to generate a response based on specific knowledge 
+      provided by the user as part of the system prompt, over-riding it general knowledge. The system prompt also 
+      instructs the agent to assume the persona of a college professor, influenced the tone and style of the response.
+      The agent's response is likely to be more formal and may include an educational tone.
